@@ -1,0 +1,14 @@
+E:\greekbrain codes\class9-homework\tsak68\bin\Debug\net7.0\tsak68.exe
+E:\greekbrain codes\class9-homework\tsak68\bin\Debug\net7.0\tsak68.deps.json
+E:\greekbrain codes\class9-homework\tsak68\bin\Debug\net7.0\tsak68.runtimeconfig.json
+E:\greekbrain codes\class9-homework\tsak68\bin\Debug\net7.0\tsak68.dll
+E:\greekbrain codes\class9-homework\tsak68\bin\Debug\net7.0\tsak68.pdb
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\tsak68.GeneratedMSBuildEditorConfig.editorconfig
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\tsak68.AssemblyInfoInputs.cache
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\tsak68.AssemblyInfo.cs
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\tsak68.csproj.CoreCompileInputs.cache
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\tsak68.dll
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\refint\tsak68.dll
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\tsak68.pdb
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\tsak68.genruntimeconfig.cache
+E:\greekbrain codes\class9-homework\tsak68\obj\Debug\net7.0\ref\tsak68.dll
