@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\greekbrain codes\\class9-homework\\tsak68\\tsak68.csproj",
+      "projectUniqueName": "E:\\greekbrain codes\\class9-homework\\task68\\tsak68.csproj",
       "projectName": "tsak68",
-      "projectPath": "E:\\greekbrain codes\\class9-homework\\tsak68\\tsak68.csproj",
+      "projectPath": "E:\\greekbrain codes\\class9-homework\\task68\\tsak68.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "E:\\greekbrain codes\\class9-homework\\tsak68\\obj\\",
+      "outputPath": "E:\\greekbrain codes\\class9-homework\\task68\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

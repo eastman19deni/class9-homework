@@ -1,37 +1,29 @@
-﻿// Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N. Выполнить с помощью рекурсии.
-// M = 1; N = 15 -> 120
-// M = 4; N = 8. -> 30
-//Задача 66: Задайте значения M и N. 
-//Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
-//M = 1; N = 15 -> 120
-//M = 4; N = 8. -> 30
+﻿//Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии.
+//Даны два неотрицательных числа m и n.
+//m = 2, n = 3 -> A(m,n) = 9
+//m = 3, n = 2 -> A(m,n) = 29
+Console.Write("M=");
+int m = int.Parse(Console.ReadLine());
+Console.Write("N=");
+int n = int.Parse(Console.ReadLine());
+int result = Ackermann(m, n);
+Console.WriteLine($"A({m}, {n}) = {result}");
 
-int m = InputNumbers("Введите M: ");
-int n = InputNumbers("Введите N: ");
-int temp = m;
-
-if (m > n)
+int Ackermann(int m, int n)
 {
-    m = n;
-    n = temp;
-}
-
-PrintSumm(m, n, temp = 0);
-
-void PrintSumm(int m, int n, int summ)
-{
-    summ = summ + n;
-    if (n <= m)
+    if (m == 0)
     {
-        Console.Write($"Сумма элементов = {summ} ");
-        return;
+        return n + 1;
     }
-    PrintSumm(m, n - 1, summ);
+    else if (m > 0 && n == 0)
+    {
+        return Ackermann(m - 1, 1);
+    }
+    else if (m > 0 && n > 0)
+    {
+        return Ackermann(m - 1, Ackermann(m, n - 1));
+    }
+    return 0;
 }
 
-int InputNumbers(string input)
-{
-    Console.Write(input);
-    int output = Convert.ToInt32(Console.ReadLine());
-    return output;
-}
+
