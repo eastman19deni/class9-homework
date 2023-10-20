@@ -4,7 +4,7 @@
 
 using static System.Console;
 
-Write("Enter M =");
+Write($"Enter M =");
 int m = int.Parse(ReadLine());
 Write("Enter N =");
 int n = int.Parse(ReadLine());
